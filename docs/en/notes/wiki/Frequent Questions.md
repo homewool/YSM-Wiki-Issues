@@ -28,15 +28,15 @@ If you cannot solve a problem on your own, you can ask other people in the commu
 
 ## How to Install the Mod
 
-The latest release version of the mod is: `2.6.4`
+The latest release version of the mod is: `2.6.5`
 
 The mod works on:
 
-<Card title="Version 2.6.4" icon="icon-park-outline:tag">
+<Card title="Version 2.6.5" icon="icon-park-outline:tag">
 
 - Forge: `1.20.1`
 - Fabric: `1.21.1` `1.20.1`
-- NeoForge: `1.21.1`
+- NeoForge: `1.21.1` `26.1.2`
 
 </Card>
 
@@ -131,7 +131,7 @@ Note that the following steps for installing models only applies to singleplayer
 If you have installed your model following the instructions above, but still cannot find it, please check the following:
 
 - Did you actually have the mod installed?
-- Did you have the latest version (2.6.4) of the mod installed? Most new models requires mod version 2.2.2 or above. Version 1.1.5 is no longer supported!
+- Did you have the latest version (2.6.5) of the mod installed? Most new models requires mod version 2.2.2 or above. Version 1.1.5 is no longer supported!
 - Were you in multiplayer? Only the OP can install models on a server.
 - Have you executed the command `/ysm model reload` to reload the models?
 - If you were playing for the first time, and have quite a lot of models installed, you could be in a situation where only the default model is available after reloading. Please wait for a while as the mod is building cache for your models, after which the models should show up. (Same for multiplayer)
@@ -187,9 +187,15 @@ Use the compatibility renderer. Instructions:
 
 ![lowversion.jpg](/img/notes/wiki/faq/faq_lowversion_e4bd1c9a.jpg)
 
-If you encountered this, please check if your YSM is up to date (the latest version is 2.6.4). If not, please update.
+If you encountered this, please check if your YSM is up to date (the latest version is 2.6.5). If not, please update.
 
 If it is up to date, please contact the model author.
+
+## Mod crashes on startup; Java reports EXCEPTION_ILLEGAL_INSTRUCTION
+
+After version 2.2.2, the YSM mod uses the **AVX instruction set** to improve performance. This instruction set requires a CPU released **after 2010** to run. Older CPUs will trigger the `EXCEPTION_ILLEGAL_INSTRUCTION` error.
+
+You can either play a YSM version **before 2.2.2**, or upgrade your computer hardware if conditions permit.
 
 ## Can I Play YSM on Bedrock Edition or NetEase Edition
 
