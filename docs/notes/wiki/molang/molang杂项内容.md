@@ -257,7 +257,7 @@ Tips：能帮助判断是否正在淋雪，而 `q.is_in_water_or_rain` 不能。
 ，注意区分大小写；
 - 参数②：附魔 ID，参考 [Wiki](https://www.mcmod.cn/item/list/1-5.html)；
 
-![img](https://s2.loli.net/2025/01/31/5R6zZdP1tfrxIlO.png)
+![img](/img/notes/wiki/更新日志/120/120_ysm_equipped_enchantment_level_c81f257c.png)
 
 - 返回值：整数类型的附魔等级。如果附魔不存在，则返回 0。
 

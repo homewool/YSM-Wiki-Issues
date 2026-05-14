@@ -13,7 +13,7 @@ author:
 
 BlockBench 里支持添加变量占位符按钮，快速调试不同 molang 参数效果。 如图所示：
 
-![molang1.6.pdf-image-000.jpg](https://s2.loli.net/2025/01/31/93nW8LOjuYGQMdo.jpg)
+![molang1.6.pdf-image-000.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_000_b05d5dae.jpg)
 
 比如写入`query.ground_speed=slider('地面速度')`，则表现为：添加一个`query.ground_speed`的变量滑块，其命名为`地面速度`。
 
@@ -56,9 +56,9 @@ query.is_on_ground = toggle('在地面上')
 
 检测护甲栏是否有护甲，通过穿脱护甲来实现换装：
 
-![molang1.6.pdf-image-007.jpg](https://s2.loli.net/2025/01/31/EOk6Ia5fct4LA9H.jpg){width="75%"}
+![molang1.6.pdf-image-007.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_007_8e2909e8.jpg){width="75%"}
 
-![molang1.6.pdf-image-009.jpg](https://s2.loli.net/2025/01/31/exZsAfbikwHtzh6.jpg){width="75%"}
+![molang1.6.pdf-image-009.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_009_7a1edaf7.jpg){width="75%"}
 
 ::: card
 
@@ -76,16 +76,16 @@ query.is_on_ground = toggle('在地面上')
 
 通过在组名前加上 `ysmGlow` 前缀来实现发光效果（注意大小写）：
 
-![molang1.6.pdf-image-011.jpg](https://s2.loli.net/2025/01/31/ctB2piGgWHzeTyw.jpg){width="60%"}
-![molang1.6.pdf-image-012.jpg](https://s2.loli.net/2025/01/31/gZ5CiFUM3Etqxmy.jpg)
+![molang1.6.pdf-image-011.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_011_c990715b.jpg){width="60%"}
+![molang1.6.pdf-image-012.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_012_b0daa299.jpg)
 
 ### 眼部追踪
 
 让瞳孔跟随玩家视线进行移动，模拟眼部追踪效果。
 
-![molang1.6.pdf-image-013.jpg](https://s2.loli.net/2025/01/31/kxMqBTubXGepv37.jpg){width="75%"}
+![molang1.6.pdf-image-013.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_013_74c6a690.jpg){width="75%"}
 
-![molang1.6.pdf-image-015.jpg](https://s2.loli.net/2025/01/31/n4CS7g2wNBpzk9i.jpg){width="75%"}
+![molang1.6.pdf-image-015.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_015_97e9a564.jpg){width="75%"}
 
 ::: card
 
@@ -117,7 +117,7 @@ query.is_on_ground = toggle('在地面上')
 
 自动根据是否需要闭眼而闭眼（通常为 4 秒一次），懒得做闭眼动画可以直接用这个。
 
-![molang1.6.pdf-image-017.jpg](https://s2.loli.net/2025/01/31/uWDrRi1Fak2wSqU.jpg){width="75%"}
+![molang1.6.pdf-image-017.jpg](/img/notes/wiki/molang/common/common_molang1_6_pdf_image_017_0115cf40.jpg){width="75%"}
 
 :::: card-grid
 ::: card

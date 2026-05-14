@@ -50,40 +50,40 @@ author: 流风
 
 这里我们用蓝玫瑰（02Bunny）提供的模型，从零开始制作一张 PBR 贴图。
 
-![7162d2214e813c4b.jpg](https://s2.loli.net/2025/01/30/KCu37bDxr4LsgeX.jpg)
+![7162d2214e813c4b.jpg](/img/notes/wiki/模型包制作/pbr/pbr_7162d2214e813c4b_ba56550d.jpg)
 
 首先我们复制一张贴图出来，在名称后缀加上 `_s`（常见命名习惯，并非必须要求）。切换到绘画模式，在设置里把画板切换到 RGB 模式。
 
 这样在下方的数值就会一一对应 PBR 的值，如图依次为：光滑度 128，金属度 255，亮度 0。
 
-![71d061534ea4540c.jpg](https://s2.loli.net/2025/01/30/4sXHn6QbT25ImZq.jpg)
+![71d061534ea4540c.jpg](/img/notes/wiki/模型包制作/pbr/pbr_71d061534ea4540c_2d7323e3.jpg)
 
 然后我们就可以在新复制出来的贴图上进行换色。刚才我们调的是一个金属的材质，那我们就对模型上应该是金属的地方进行换色。
 
-![5f9718c096f5c71b.jpg](https://s2.loli.net/2025/01/30/ES9I1VMnwckzlhu.jpg)
+![5f9718c096f5c71b.jpg](/img/notes/wiki/模型包制作/pbr/pbr_5f9718c096f5c71b_67763d10.jpg)
 
 其他地方同理，这个地方应该是什么材料的就怎么给他调什么数值。
 
 例如玻璃，我们可以给他 `255 64 0` 强调反光度，任何发光件可以填充为 `0 0 255`，光滑和金属也可以依据情况添加数值。像轮胎，头发，布料这类，可以不添加任何值，即填充为 `0 0 0`。
 
-![419b098b3f62d33d.jpg](https://s2.loli.net/2025/01/30/WAjlcXQz4trskGZ.jpg)
+![419b098b3f62d33d.jpg](/img/notes/wiki/模型包制作/pbr/pbr_419b098b3f62d33d_2e674e0f.jpg)
 
 ## 最终效果
 
 之后我们就可以把贴图和模型导出来了。通过插件将这几个文件挂载上即可。
 
-![1.png](https://s2.loli.net/2025/01/30/2mh7ZFRVJzpg5UW.png){width="80%"}
+![1.png](/img/notes/wiki/模型包制作/pbr/pbr_image_005_079967bb.png){width="80%"}
 
 这样我们的 PBR 贴图就算完成了，现在就可以进入游戏检查，对比一下 PBR 前后效果：
 
 <CardGrid>
   <ImageCard
-    image="https://s2.loli.net/2025/01/30/f5IsdMaKxyem3V2.jpg"
+    image="/img/notes/wiki/模型包制作/pbr/pbr_00c5385c.jpg"
     title="使用 PBR 前"
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2025/01/30/OMzXqU87EdLcgDm.jpg"
+    image="/img/notes/wiki/模型包制作/pbr/pbr_759c38c8.jpg"
     title="使用 PBR 后"
     href="/"
   />

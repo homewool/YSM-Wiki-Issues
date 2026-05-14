@@ -19,7 +19,7 @@ icon: tabler:brand-minecraft
 
 首先，你需要下载得到这两个文件：
 
-![img](https://s2.loli.net/2025/01/28/WiIGQSLgq2A8rdF.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_001_e950e20d.png)
 
 - `ysmMain.zip`：前置包，仅用于中国版 YSM 组件附包测试附属包，**请勿作它用**。
 - `ysm-netease-utils.js`：BlockBench 插件，用于一键转换 Java 版 YSM 模型包。
@@ -31,7 +31,7 @@ fileUrl="/files/ysm-netease-utils.js"
 
 其次，你的电脑上应该还需要安装这三个软件：
 
-![img](https://s2.loli.net/2025/01/28/p5jxLacNJkVRQgl.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_002_edcceb24.png)
 
 - `BlockBench`：制作模型的软件，这个应该都认识吧？
 - `VSCode`：经典的文本编辑软件，因为部分高级内容可能需要改动脚本文件，所以建议安装此软件。
@@ -41,13 +41,13 @@ fileUrl="/files/ysm-netease-utils.js"
 
 首先，打开你的 BlockBench 软件，将先前的 `ysm-netease-utils.js`（**注意不要修改文件名，也不要安装后就删除此文件）** 直接拖入 BlockBench 中。
 
-![img](https://s2.loli.net/2025/01/28/1aQ39gqfGRCjrPc.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_003_71f26252.png)
 
 点击确认即可，此时你在 `文件 -> 插件` 菜单中就能看到加载的插件了：
 
-![img](https://s2.loli.net/2025/01/28/rh7paZYUKB13NjE.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_004_43dffd7a.png)
 
-![img](https://s2.loli.net/2025/01/28/EltwBoCvgDxus64.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_005_6aa3dfe0.png)
 
 ## 三、转换模型
 
@@ -55,9 +55,9 @@ fileUrl="/files/ysm-netease-utils.js"
 
 在 BlockBench 中打开此菜单：
 
-![img](https://s2.loli.net/2025/01/28/ailrDY1VGJ8uXfd.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_006_7f2e21fc.png)
 
-![img](https://s2.loli.net/2025/01/28/SI8qWfDuMgdmkn7.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_007_3158e16e.png)
 
 点击 `选择 Java 版模型包` 按钮，随后选中你需要转换的 Java 版 YSM 模型包文件夹。
 
@@ -79,40 +79,40 @@ fileUrl="/files/ysm-netease-utils.js"
 
 首先打开 `我的世界开发者启动器`，登录账户，并选择 `创作 -> 本地导入 -> 导入基岩版组件`：
 
-![img](https://s2.loli.net/2025/01/28/Spsc9gmIo13udVa.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_008_97367a18.png)
 
 然后将我们刚刚下载的 `ysmMain.zip` 前置包导入，随便起个名字即可，然后点击导入。
 
-![img](https://s2.loli.net/2025/01/28/mLuF12gj5IzSJZx.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_009_6c53657d.png)
 
 接着把我们刚刚插件转换后的文件夹也如法炮制，导入：
 
-![img](https://s2.loli.net/2025/01/28/xQgAlP5dIvmGfiX.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_010_041096a4.png)
 
 接着选择主包（附属包也可以，随便你哪个），点击开发测试按钮：
 
-![img](https://s2.loli.net/2025/01/28/JROyAUMZbsta1oE.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_011_eedbe203.png)
 
 随便选一个版本，3.1、3.2 都可以：
 
-![img](https://s2.loli.net/2025/01/28/haFymdDS31AKCMr.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_012_9ff94b85.png)
 
 然后这个界面需要做两处修改：
 
 - 勾选上我们的主包和附属包
 - 选择创造模式（不然测试几下就被怪打死了不妥吧）
 
-![img](https://s2.loli.net/2025/01/28/WgS3JU4BQuAXhRL.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_013_a2637da0.png)
 
 点击开始按钮，运行游戏即可，之后就是按照正常流程游戏内使用 YSM 组件即可：
 
-![img](https://s2.loli.net/2025/01/28/bGRXdTnQjYivkH6.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_014_47ece375.png)
 
 ## 五、问题反馈
 
 如果你遇到了问题，我们可能会像你索取日志文件，日志文件可以通过点击此处导出：
 
-![img](https://s2.loli.net/2025/01/28/FxkE21hGWM9i3jX.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_015_3f762272.png)
 
 ## 转换常见问题
 
@@ -122,11 +122,11 @@ fileUrl="/files/ysm-netease-utils.js"
 
 `friendly name 'material.tohru' not found in entity friendly name list (material.default) - check your spelling?`
 
-![img](https://s2.loli.net/2025/01/28/C4Ncf6ZkIeqmJrn.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_016_1f65b556.png)
 
 `Error: can't find animation xxx`
 
-![img](https://s2.loli.net/2025/01/28/jbEFC5zc8LTnGvl.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_017_cd4966c2.png)
 
 ### 二、第一人称手臂模型模型有多出来的部分或者缺失部分内容
 
@@ -138,7 +138,7 @@ fileUrl="/files/ysm-netease-utils.js"
 
 首先，按照下图，找你转换后的组件包内的这个文件，并用 `VScode` 打开：
 
-![img](https://s2.loli.net/2025/01/28/yIpkr4SGvaRwdCJ.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_018_c6e139a2.png)
 
 在 `part_visibility` 字段下删除多余的、不应当显示的组即可。有缺失的组，也可以如法炮制进行添加。
 
@@ -146,9 +146,9 @@ fileUrl="/files/ysm-netease-utils.js"
 
 具体情况如下图所示，本该隐藏的部分显示了出来：
 
-![img](https://s2.loli.net/2025/01/28/VvZHTMIfz3ODLhU.png)
+![img](/img/notes/wiki/模型转换/netease/netease_image_019_b04d7c3a.png)
 
-![21.png](https://s2.loli.net/2025/01/28/Dmv6nH5WSFZp2Qo.png)
+![21.png](/img/notes/wiki/模型转换/netease/netease_image_020_bc981d5f.png)
 
 解决办法：
 
@@ -158,15 +158,15 @@ fileUrl="/files/ysm-netease-utils.js"
 
 模型文件在 `resource_pack\models\entity` 路径下。动画文件在 `resource_pack\animations` 路径下，一般你只需要加载名为 `main.animation.json` 的即可。
 
-![22.png](https://s2.loli.net/2025/01/28/EakQb85KMFJj3WR.png)
+![22.png](/img/notes/wiki/模型转换/netease/netease_image_021_de72196c.png)
 
-![23.png](https://s2.loli.net/2025/01/28/P38Ks4EwHhCuG2y.png)
+![23.png](/img/notes/wiki/模型转换/netease/netease_image_022_72afb592.png)
 
 ### 四、打开 GUI 模型切换界面时，后台疯狂报错
 
 报错信息可能是这样的：`Error: unhandled request for unknown variable 'variable.xxx'`
 
-![img](https://s2.loli.net/2025/01/28/UHCodeBYLnRyIOw.png)
+![img](/img/notes/wiki/模型转换/netease/netease_gui_6bec3924.png)
 
 解决办法：
 

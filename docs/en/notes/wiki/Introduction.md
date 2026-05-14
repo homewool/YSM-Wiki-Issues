@@ -10,14 +10,14 @@ tags:
 
 Yes Steve Model is a mod that modifies the original player model. It uses the model and animation files of the Minecraft Bedrock Edition and provides many optimization and model encryption features.
 
-![img](https://s2.loli.net/2023/01/01/RAor58n6LBct3kW.jpg)
+![img](/img/notes/wiki/intro/intro_image_001_f2170853.jpg)
 
 ::: tip
-The latest version of Yes Steve Model is **2.6.0**.
+The latest version of Yes Steve Model is **2.6.5**.
 :::
 
 ::: tip
-Version **2.6.0** supports 1.20.1 Forge, 1.20.1/1.21.1 Fabric, and 1.21.1 NeoForge, a total of 4 versions.
+Version **2.6.5** supports 1.20.1 Forge, 1.20.1/1.21.1 Fabric, and 1.21.1/26.1.2 NeoForge, a total of 5 versions.
 
 Version **2.4.1** supports 1.16.5/1.18.2/1.19.2/1.20.1 Forge, 1.16.5/1.18.2/1.19.2/1.20.1/1.21/1.21.1 Fabric, and 1.21/1.21.1 NeoForge, a total of 12 versions.
 :::
@@ -37,73 +37,73 @@ The Yes Steve Model mod takes into account the mod requirements of the server co
 
 <CardGrid>
   <ImageCard
-    image="https://s2.loli.net/2023/07/21/25SgTJLdlU1iYCQ.jpg"
+    image="/img/notes/wiki/动画制作/fp/fp_2023_07_21_00_18_87679250.jpg"
     title="First-person Model"
     description="The mod name is First-person Model, but there are still some errors that are difficult to solve."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2023/07/20/N6sOS9ea5xwfn8t.jpg"
+    image="/img/notes/wiki/intro/intro_tac_tacz_fa349c0d.jpg"
     title="TAC/TACZ (Timeless and Classic Guns)"
     description="Perfectly compatible with the gun-holding, reloading, aiming, firing and many other motions of this mod."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2024/02/14/71QyVR6NSHmbdo3.jpg"
+    image="/img/notes/wiki/intro/intro_carry_on_0ea6f3f8.jpg"
     title="Carry On"
     description="Capable of playing the corresponding animation when the player picks up other blocks or entities. With the Carry On mod for Minecraft 1.19.2 and 1.20 you can even pick up other players, so you can cultivate feelings with your friends on the server."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2024/02/14/LfQxMCZKNAtzsOG.jpg"
+    image="/img/notes/wiki/intro/intro_slash_blade_b89b385b.jpg"
     title="SlashBlade"
     description="Capable of rendering some specific main and off-hand Slash Blades. Version 2.3.0 adds compatibility with SlashBlade animations, with 33 new animations. You can refer to the slashblade.animation.json file of the default model."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2024/08/14/jlzG2E5FpvCQyaq.jpg"
+    image="/img/notes/wiki/intro/intro_swem_1ac35997.jpg"
     title="SWEM (Equestrian)"
     description="11 new animations are added. You can refer to the swem.animation.json file of the default model."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2024/08/14/aV72OGH8pzrvW5R.jpg"
+    image="/img/notes/wiki/intro/intro_parcool_f037f1d6.jpg"
     title="Parcool"
     description="35 new animations are added. You can refer to the parcool.animation.json file of the default model."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2025/03/05/WoZCTghkiP1pr2S.jpg"
+    image="/img/notes/wiki/intro/intro_touhou_little_maid_9d39c3bf.jpg"
     title="Touhou Little Maid"
     description="15 new animations are added. You can refer to the tlm.animation.json file of the default model."
     href="/"
   />
   <ImageCard
-    image="https://s2.loli.net/2025/03/05/8Wzm6vdPlyDeYBC.jpg"
+    image="/img/notes/wiki/intro/intro_sophisticated_backpacks_362e6537.jpg"
     title="Sophisticated Backpacks"
     description="Capable of rendering Sophisticated Backpacks"
     href="/"
   />
  <ImageCard
-    image="https://s2.loli.net/2025/09/19/HUiqBToOeYDnayl.jpg"
+    image="/img/notes/wiki/intro/intro_superb_warfare_74fea3fe.jpg"
     title="Superb Warfare"
     description="It can be perfectly compatible with various actions of the module, such as holding a gun, reloading, aiming, firing, and throwing grenades."
     href="/"
   />
  <ImageCard
-    image="https://s2.loli.net/2025/09/19/2Mhn5ufiCxysOwH.jpg"
+    image="/img/notes/wiki/intro/intro_create_2765ab10.jpg"
     title="Create"
     description="Support Suspended-under-Chain Animation."
     href="/"
   />
  <ImageCard
-    image="https://s41.ax1x.com/2026/01/04/pZadZ6g.jpg"
+    image="/img/notes/wiki/intro/intro_irons_spells_n_spellbooks_e21385da.jpg"
     title="Iron's Spells 'n Spellbooks"
     description="Support the casting animations of Iron's Spells 'n Spellbooks"
     href="/"
   />
  <ImageCard
-    image="https://s41.ax1x.com/2026/01/04/pZadEp8.jpg"
+    image="/img/notes/wiki/intro/intro_immersive_melodies_f5d06ee1.jpg"
     title="Immersive Melodies"
     description="Support Immersive Melodies Animations"
     href="/"

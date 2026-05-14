@@ -16,9 +16,9 @@ An in-game configuration interface can be opened in the upper right corner of th
 
 If you want to adjust the extra model rendered in the upper left corner, simply press the `Alt P` key combination (if it doesn't work, please check the key bindings).
 
-![2.png](https://s2.loli.net/2025/01/27/WzH1G8TK4hcrLks.png)
+![2.png](/img/notes/wiki/config/config_image_001_1e5a9d2d.png)
 
-![2025-01-27_11.57.06.png](https://s2.loli.net/2025/01/27/sZtCmdDA2pKIuHU.png)
+![2025-01-27_11.57.06.png](/img/notes/wiki/config/config_2025_01_27_11_57_06_e813673a.png)
 
 ## Server Configuration
 

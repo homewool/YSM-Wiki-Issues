@@ -41,12 +41,12 @@ YSM 2.6.0 再次对 UV 处理进行了修复与调整，并发布本规范，用
 
 <Card title="设定分辨率" icon="mdi:mirror">
 <p>UV 窗口右上角显示的分辨率。</p>
-<img src="https://s41.ax1x.com/2026/01/04/pZatjSg.webp" alt="Blockbench UV 窗口中的设定分辨率" style="max-width: 300px">
+<img src="/img/notes/wiki/模型包制作/ysm_uv_standard/ysm_uv_standard_blockbench_uv_e97672f4.webp" alt="Blockbench UV 窗口中的设定分辨率" style="max-width: 300px">
 </Card>
 
 <Card title="实际分辨率" icon="mdi:mirror">
 <p>纹理窗口中该纹理实际显示的分辨率。</p>
-<img src="https://s41.ax1x.com/2026/01/04/pZaNpmn.webp" alt="Blockbench 纹理窗口中的实际分辨率" style="max-width: 300px">
+<img src="/img/notes/wiki/模型包制作/ysm_uv_standard/ysm_uv_standard_blockbench_825eb629.webp" alt="Blockbench 纹理窗口中的实际分辨率" style="max-width: 300px">
 </Card>
 
 <Card title="UV 单位" icon="mdi:mirror">
@@ -63,7 +63,7 @@ UV 单位 = `设定分辨率 / 实际分辨率`。
 
 例如：当 UV 单位为 1 时，下图这种情况是错误的：
 
-<img src="https://s2.loli.net/2026/01/05/HLo8e17kZOUqTdS.webp" alt="UV 坐标与尺寸不符合 UV 单位整数倍的示例" style="max-width: 300px">
+<img src="/img/notes/wiki/模型包制作/ysm_uv_standard/ysm_uv_standard_uv_uv_4ffb706d.webp" alt="UV 坐标与尺寸不符合 UV 单位整数倍的示例" style="max-width: 300px">
 
 当 UV 单位为 0.5 时，上述情况则是正确的。
 
@@ -97,7 +97,7 @@ UV 单位 = `设定分辨率 / 实际分辨率`。
   因为面积趋近于 0 的面仍会参与渲染，产生不必要的性能开销。
   更推荐改用逐面 UV，并手动移除不需要渲染的面。
 
-  <img src="https://s2.loli.net/2026/01/05/g2zcGiErSpetsX3.webp" alt="接近 0 的尺寸仍参与渲染的示例" style="max-width: 300px">
+  <img src="/img/notes/wiki/模型包制作/ysm_uv_standard/ysm_uv_standard_1_uv_0ba3fe31.webp" alt="接近 0 的尺寸仍参与渲染的示例" style="max-width: 300px">
 
 - 如果需要小于 1 的块（包括负尺寸）来实现效果，可以使用`尺寸大于 1 的块 + 负膨胀值`的方式实现；
   或改用逐面 UV，手动设置满足规范的 UV 尺寸，此时块尺寸不再受上述限制。

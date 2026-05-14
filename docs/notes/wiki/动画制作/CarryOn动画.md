@@ -25,7 +25,7 @@ Carry On 模组的兼容动画是一个名为 `carryon.animation.json` 的独立
 ## 多出来的手臂
 当你用的是 1.18.2 及以前版本的 Carry On 时，可能会出现这样的情况：
 
-![pig.png](https://s2.loli.net/2025/01/30/T7lDLOtSYFPV91o.png)
+![pig.png](/img/notes/wiki/动画制作/carryon/carryon_pig_beb6c135.png)
 
 这是旧版本 Carry On 模组的 bug，你需要手动修改 `config\carryon-client.toml` 处文件，将 `renderArms` 后面的 `true` 改成 `false` 即可:
 

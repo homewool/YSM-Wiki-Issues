@@ -27,7 +27,7 @@ We have tested JVMs such as Oracle, Azul Zulu, Microsoft, and Dragonwell. If you
 
 When a player enters the server for the first time, they need to wait for about ten seconds (the time required for model synchronization, which varies depending on the number of models on the server). Then they can use the shortcut key `Alt` + `Y` to open the following menu:
 
-![1.png](https://s2.loli.net/2023/06/25/Ya7DMmKToSneN6L.png)
+![1.png](/img/notes/wiki/install/install_neoforge_forge_b6b2cb2a.png)
 
 **① Model Switching Button**: Click to switch to the corresponding model. If the button background is gray, it means the model is not authorized. The number in the upper left corner represents the number of textures that can be switched for this model.
 
@@ -35,11 +35,11 @@ When a player enters the server for the first time, they need to wait for about 
 
 **③ Details Button**: Click to enter the Model Details menu and view all available textures and animations of the model. In the middle preview window, you can use the left mouse button to drag and rotate the model, the right mouse button to drag and move the model, and the mouse scroll wheel to zoom in and out of the model. Click the material selection box on the right to select different textures. Click the animation list on the left to preview different animations.
 
-![3.png](https://s2.loli.net/2023/02/11/UxtCNy9wEg1XjSI.png)
+![3.png](/img/notes/wiki/install/install_neoforge_forge_0ecff56d.png)
 
 Version 2.2.1 also added an Author Details menu. Click the "Open Details" button in the upper left corner of the Select Model menu to open the following menu:
 
-![2024-06-23_21.24.png](https://s2.loli.net/2024/06/23/5ePDTnrBchwyzq8.png)
+![2024-06-23_21.24.png](/img/notes/wiki/install/install_2024_06_23_21_24_dde86ac7.png)
 
 ## Notes on Fabric Versions
 

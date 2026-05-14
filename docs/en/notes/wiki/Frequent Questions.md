@@ -28,15 +28,15 @@ If you cannot solve a problem on your own, you can ask other people in the commu
 
 ## How to Install the Mod
 
-The latest release version of the mod is: `2.6.0`
+The latest release version of the mod is: `2.6.5`
 
 The mod works on:
 
-<Card title="Version 2.6.0" icon="icon-park-outline:tag">
+<Card title="Version 2.6.5" icon="icon-park-outline:tag">
 
 - Forge: `1.20.1`
 - Fabric: `1.21.1` `1.20.1`
-- NeoForge: `1.21.1`
+- NeoForge: `1.21.1` `26.1.2`
 
 </Card>
 
@@ -56,7 +56,7 @@ A major reconstruction was made in version `1.2.0`. Most new models cannot be lo
 
 We always expect that you can use the latest version. You can check the version by looking at the texts on the lower left corner in the Select Model menu:
 
-![image.jpg](https://s2.loli.net/2025/01/31/ShztlRosQPAaFBj.png)
+![image.jpg](/img/notes/wiki/faq/faq_image_001_c55813af.png)
 
 ::: warning
 
@@ -100,28 +100,28 @@ Note that the following steps for installing models only applies to singleplayer
 ::: steps
 
 1. In the Select Model menu, click the `Open Model Folder` button on the top right
-   ![1.jpg](https://s2.loli.net/2025/01/31/1ClHjr3ApLx5u6m.png)
+   ![1.jpg](/img/notes/wiki/faq/faq_image_002_233c5729.png)
 
 2. Click `Open Model Folder` in the opened dialog
-   ![2.jpg](https://s2.loli.net/2025/01/31/rTOg4kZLb3jpzPn.png)
+   ![2.jpg](/img/notes/wiki/faq/faq_image_003_31557303.png)
 
 3. A folder window will pop out, as shown in the following image:
-   ![3.jpg](https://s2.loli.net/2025/01/31/T6cVnUyfmi927GW.png)
+   ![3.jpg](/img/notes/wiki/faq/faq_image_004_31f54558.png)
 
 4. Put your model file into the folder, as shown in the following image:
-   ![4.jpg](https://s2.loli.net/2025/01/31/VuiRdxMIFLvpNBt.png)
-   ![5.jpg](https://s2.loli.net/2025/01/31/rThBdgqjwlp9c24.png)
+   ![4.jpg](/img/notes/wiki/faq/faq_image_005_d8fb63e6.png)
+   ![5.jpg](/img/notes/wiki/faq/faq_image_006_681ba2e8.png)
 
    Return to the game when it is set.
 
 5. Press the `/` key on the keyboard, type the command `ysm model reload` (OP permission required), as shown in the following image:
-   ![6.jpg](https://s2.loli.net/2025/01/31/OUp6GX35SfdDezJ.png)
+   ![6.jpg](/img/notes/wiki/faq/faq_image_007_441a3af4.png)
 
 6. Press enter to execute the command
-   ![7.jpg](https://s2.loli.net/2025/01/31/56WfVpFUtXidmKD.png)
+   ![7.jpg](/img/notes/wiki/faq/faq_image_008_b2da820b.png)
 
 7. Now open the Select Model menu, and you should see the files you just installed
-   ![8.jpg](https://s2.loli.net/2025/01/31/FahgjmoczbBH3Rf.png)
+   ![8.jpg](/img/notes/wiki/faq/faq_image_009_7bd2bcbc.png)
    Sometimes when there are too many models, you will need to use the button on the bottom to switch between pages
 
 :::
@@ -131,7 +131,7 @@ Note that the following steps for installing models only applies to singleplayer
 If you have installed your model following the instructions above, but still cannot find it, please check the following:
 
 - Did you actually have the mod installed?
-- Did you have the latest version (2.6.0) of the mod installed? Most new models requires mod version 2.2.2 or above. Version 1.1.5 is no longer supported!
+- Did you have the latest version (2.6.5) of the mod installed? Most new models requires mod version 2.2.2 or above. Version 1.1.5 is no longer supported!
 - Were you in multiplayer? Only the OP can install models on a server.
 - Have you executed the command `/ysm model reload` to reload the models?
 - If you were playing for the first time, and have quite a lot of models installed, you could be in a situation where only the default model is available after reloading. Please wait for a while as the mod is building cache for your models, after which the models should show up. (Same for multiplayer)
@@ -147,16 +147,16 @@ If you have installed YSM and is able to open the Select Model menu, but only th
    How? Read [How to Open the Select Model Menu](#how-to-open-the-select-model-menu)
 
 2. Click `Open Config GUI` button:
-   ![1.jpg](https://s2.loli.net/2025/01/31/kGebx86qE7lIfzW.png)
+   ![1.jpg](/img/notes/wiki/faq/faq_image_010_0b597294.png)
 
 3. Uncheck the following:
-   ![2.jpg](https://s2.loli.net/2025/01/31/riqge8GDN95b1QK.png)
+   ![2.jpg](/img/notes/wiki/faq/faq_image_011_2e3e0974.png)
 
 :::
 
 ## The Models are Rendered Incorrectly
 
-![optifine.jpg](https://s2.loli.net/2025/01/31/rHI5iT4zF6OsxvX.jpg)
+![optifine.jpg](/img/notes/wiki/faq/faq_optifine_f5ba4635.jpg)
 
 If you found that your models are messed up like this, it is likely that you have Optifine installed.
 
@@ -175,27 +175,33 @@ Use the compatibility renderer. Instructions:
    How? Read [How to Open the Select Model Menu](#how-to-open-the-select-model-menu)
 
 2. Click `Open Config GUI` button:
-   ![1.jpg](https://s2.loli.net/2025/01/31/kGebx86qE7lIfzW.png)
+   ![1.jpg](/img/notes/wiki/faq/faq_image_010_0b597294.png)
 
 3. Check `Use compatibility renderer`:
     
-   ![222.jpg](https://s2.loli.net/2025/01/31/3126yCFT7G9BgsN.png){width="50%"}
+   ![222.jpg](/img/notes/wiki/faq/faq_image_014_ff6b84a0.png){width="50%"}
 
 :::
 
 ## It Says "Unsupported ysm format version"
 
-![lowversion.jpg](https://s21.ax1x.com/2025/02/03/pEZotl6.jpg)
+![lowversion.jpg](/img/notes/wiki/faq/faq_lowversion_e4bd1c9a.jpg)
 
-If you encountered this, please check if your YSM is up to date (the latest version is 2.6.0). If not, please update.
+If you encountered this, please check if your YSM is up to date (the latest version is 2.6.5). If not, please update.
 
 If it is up to date, please contact the model author.
+
+## Mod crashes on startup; Java reports EXCEPTION_ILLEGAL_INSTRUCTION
+
+After version 2.2.2, the YSM mod uses the **AVX instruction set** to improve performance. This instruction set requires a CPU released **after 2010** to run. Older CPUs will trigger the `EXCEPTION_ILLEGAL_INSTRUCTION` error.
+
+You can either play a YSM version **before 2.2.2**, or upgrade your computer hardware if conditions permit.
 
 ## Can I Play YSM on Bedrock Edition or NetEase Edition
 
 Currently YSM for NetEase Edition is available. You can search `是，史蒂夫模型` in the store to download it for free!
 
-![saveimage_1738309430.jpg](https://s2.loli.net/2025/01/31/vnRl7bwKiqCahPk.jpg)
+![saveimage_1738309430.jpg](/img/notes/wiki/faq/faq_saveimage_1738309430_e0761572.jpg)
 
 ::: warning
 Please note that the NetEase Edition and the Java Edition do not share the same community.
@@ -256,11 +262,11 @@ You can also choose to play the NetEase Edition.
    How? Read [How to Open the Select Model Menu](#how-to-open-the-select-model-menu)
 
 2. Click `Open Config GUI` button:
-   ![1.jpg](https://s2.loli.net/2025/01/31/kGebx86qE7lIfzW.png)
+   ![1.jpg](/img/notes/wiki/faq/faq_image_010_0b597294.png)
 
 3. Check/Uncheck `Disable extra player render`：
 
-   ![extra.jpg](https://s2.loli.net/2025/01/31/fYHjie13xLgakCr.png){width="50%"}
+   ![extra.jpg](/img/notes/wiki/faq/faq_extra_c54c9d7a.png){width="50%"}
 
 :::
 
@@ -270,4 +276,4 @@ Press `Alt P` (or `P` on Fabric) to configure the Extra Player Rendering。
 
 Follow the instructions on the top right to change the position, scale, and rotation. Press `Esc` to exit.
 
-![move.jpg](https://s2.loli.net/2025/01/31/2DV7IORtHzgJT93.png)
+![move.jpg](/img/notes/wiki/faq/faq_move_a8861211.png)

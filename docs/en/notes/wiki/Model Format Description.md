@@ -49,7 +49,7 @@ Now, as long as it is in the `custom` or `auth` directory, regardless of how man
 - Enter the command `/ysm export <model_id>` in the game to export a model in the folder format as the exclusive ysm model format.
 - Starting from version 2.2.2, this command also supports the syntax `/ysm export <model_id> [extra_info]`. You can add custom text information with `extra_info`. It will be attached to the exported ysm file.
   <ImageCard
-  image="https://s2.loli.net/2025/01/27/S9n5omVqt8bBOjD.png"
+  image="/img/notes/wiki/type/type_ysm_ca412a51.png"
   title="What a YSM model file looks like when opened in Notepad"
   description="When you open a ysm file exported by a new version of the mod (version 1.2.0 and later) with Notepad, you can see the information as shown in the image. This information cannot be modified. If you modify it, however, the mod will refuse to load this file."
   center=true
